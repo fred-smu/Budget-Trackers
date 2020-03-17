@@ -1,0 +1,4 @@
+node_modules
+.tmp.drivedownload
+old
+.env
