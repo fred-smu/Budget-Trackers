@@ -1,7 +1,8 @@
+// import { createElement } from "./domMethods";
 import { checkForIndexedDb, useIndexedDb } from "./indexedDb";
 let transactions = [];
 let myChart;
-​
+
 useIndexedDb('transactionDB', 'transactionsStore', 'get')
 .then(store => {
     console.log(store);
@@ -16,9 +17,7 @@ useIndexedDb('transactionDB', 'transactionsStore', 'get')
       useIndexedDb('transactionDB', 'transactionsStore', 'delete', store[0])
     })
   });
-​
-// })
-​
+​​
 fetch("/api/transaction")
   .then(response => {
     return response.json();
