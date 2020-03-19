@@ -1,5 +1,8 @@
 // import { createElement } from "./domMethods";
-import { checkForIndexedDb, useIndexedDb } from "./indexedDb";
+//import { checkForIndexedDb, useIndexedDb } from "./indexedDb";
+var DB = require("./indexedDb")
+console.log(DB);
+
 let transactions = [];
 let myChart;
 
