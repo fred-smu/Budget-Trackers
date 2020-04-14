@@ -15,6 +15,13 @@ When brought back online:
 
   * Offline entries should be added to tracker.
 
+## Click [here](https://lit-escarpment-52457.herokuapp.com/) for the live app.
+
+This is the home page:
+
+![Home Screenshot](./photo/budgetTracker.png)
+
+
 ## User Story
 AS AN avid traveller
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
